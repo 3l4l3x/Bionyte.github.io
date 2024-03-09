@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>UI Box</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./scriptP.js"></script>
+</head>
+<body>
+  <div id="particles-background" class="particles"></div>
+  <div id="particles-foreground" class="particles"></div>  
+<!-- partial:index.partial.html -->
+<div class="side left-side">
+  <div class="card">
+    <a href="/RWeb/Bionyte3.0/QuienesSomos/dist/index.html" class="button">¿Quienes Somos?</a>
+  </div>
+</div>
+</div>
+<div class="side center-side">
+  <img src="/RWeb/Bionyte2.0/[Beta2.0]/Recursos/Logo2.png"  style="width: 200px; height: 200px;">
+  <div class="card">
+    <a href="/RWeb/Bionyte3.0/MAGS/dist/index.html" class="button">MAG´S</a>
+  </div>
+</div>
+<div class="side right-side">
+  <div class="card">
+    <a href="/RWeb/Bionyte3.0/forms/dist/index.html" class="button">Contactanos</a>
+  </div>
+</div>
+<!-- scripts -->
+<script src="./scriptP.js"></script>
+  <script>
+    window.onload = function() {
+      particleground(document.getElementById('particles-foreground'), {
+        dotColor: 'rgba(255, 255, 255, 1)',
+        // Resto de las opciones...
+      });
+
+      particleground(document.getElementById('particles-background'), {
+        dotColor: 'rgba(255, 255, 255, 0.5)',
+        // Resto de las opciones...
+      });
+    };
+  </script>
+  
+  <!--Anta-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+</body>
+</html>
